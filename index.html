@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SQL Valhalla</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="nav">
+        <div class="logo">SQL Valhalla</div>
+        <button class="nav-button" id="open-home">Start</button>
+        <button class="nav-button" id="open-levels">Level</button>
+      </nav>
+      <div class="hero-content">
+        <p class="tag">Storygetriebenes SQL-Abenteuer</p>
+        <h1>Schmiede Abfragen, verdiene Ruhm.</h1>
+        <p class="hero-text">
+          Betritt die Hallen von Valhalla und löse jedes SQL-Rätsel, indem du die
+          richtigen Befehle in der passenden Reihenfolge anklickst.
+        </p>
+        <button class="primary" id="start-quest">Quest starten</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="panel" id="home">
+        <h2>Willkommen in SQL Valhalla</h2>
+        <p>
+          Jede Mission besteht aus einer Story und einer Aufgabe. Du klickst die
+          SQL-Bausteine in der richtigen Reihenfolge, um die Abfrage zu schmieden.
+        </p>
+        <ul class="features">
+          <li>Storytelling pro Level</li>
+          <li>Visuelles Anklicken statt Tippen</li>
+          <li>Live-Feedback & Hinweise</li>
+        </ul>
+      </section>
+
+      <section class="panel" id="levels">
+        <div class="panel-header">
+          <h2>Level wählen</h2>
+          <p>Starte eine Mission und baue die passende SQL-Query.</p>
+        </div>
+        <div class="level-grid" id="level-grid"></div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>SQL Valhalla &mdash; Schmiede deine Datenbank-Legende.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
