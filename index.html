@@ -45,6 +45,30 @@
         </div>
         <div class="level-grid" id="level-grid"></div>
       </section>
+
+      <section class="panel" id="play-area" hidden>
+        <div class="story">
+          <h2 id="level-title"></h2>
+          <p id="level-story"></p>
+        </div>
+        <div class="task">
+          <h3>Aufgabe</h3>
+          <p id="level-task"></p>
+        </div>
+        <div class="builder">
+          <h3>SQL schmieden</h3>
+          <div class="fragments" id="fragment-pool"></div>
+          <div class="forge">
+            <p>Deine Reihenfolge</p>
+            <div class="sequence" id="sequence"></div>
+          </div>
+        </div>
+        <div class="actions">
+          <button class="secondary" id="reset">Zurücksetzen</button>
+          <button class="primary" id="check">Prüfen</button>
+        </div>
+        <p class="feedback" id="feedback" aria-live="polite"></p>
+      </section>
     </main>
 
     <footer class="footer">
